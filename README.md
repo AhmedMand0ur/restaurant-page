@@ -15,11 +15,11 @@ A simple restaurant webpage built as part of my learning journey with *The Odin 
 ### **How to Run the Project**  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/yourusername/best-pasta.git
+   git clone https://github.com/AhmedMand0ur/restaurant-page.git
    ```  
 2. Navigate to the project folder:  
    ```sh
-   cd best-pasta
+   cd restaurant-page
    ```  
 3. Install dependencies (if using Webpack):  
    ```sh
