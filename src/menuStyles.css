@@ -1,0 +1,36 @@
+
+.menu-container {
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.menu-item {
+    display: flex;
+    gap: 10px;
+    border-left: 7px solid #FEE715;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.dish-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 50%;
+}
+
+
+.dish-image>img {
+    width: 250px;
+    height: 250px;
+}
+
+.dish-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}

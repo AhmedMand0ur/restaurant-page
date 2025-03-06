@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header> nav{
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+header > nav > button {
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color:  #FEE715;
+    padding: 3px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s step-start;
+}
+
+header > nav > button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FEE715;
+    transition: width 0.3s ease-in-out;
+}
+
+header > nav > button:hover::after {
+    width: 100%; /* Expands smoothly */
+}
+
+#content {
+    padding-left: 100px;
+    padding-right: 100px;
+}
